@@ -1,18 +1,46 @@
-# Site da professora Ricaelly Bacelar
+# Ricaelly Bacelar | Website
 
-Projeto organizado em HTML, CSS e JavaScript separados.
+Um projeto de desenvolvimento web criado para apresentar o trabalho da professora Ricaelly Bacelar por meio de uma experiência digital simples, elegante e intuitiva.
 
-## Estrutura
+## Visão geral
 
-- `index.html`: estrutura e conteúdo da página.
-- `css/style.css`: estilos, cores, layout e responsividade.
-- `js/script.js`: menu, rolagem, animações e montagem da mensagem do WhatsApp.
-- `assets/img/`: imagens utilizadas no site.
+O website foi desenvolvido com uma identidade visual editorial e minimalista, priorizando a legibilidade, a organização das informações e a facilidade de navegação.
 
-## Fotografia
+### Funcionalidades
 
-Adicione a foto da professora em `assets/img/` com o nome `foto.jpg`.
+- Apresentação profissional da professora.
+- Seção de serviços e aulas.
+- Navegação adaptada para dispositivos móveis.
+- Formulário interativo para montar mensagens de contato.
+- Integração com WhatsApp.
+- Animações e efeitos de navegação.
 
-## Como visualizar
+### Stack utilizada
 
-Abra `index.html` no navegador. Para desenvolver, você também pode usar a extensão Live Server no VS Code.
+| Tecnologia | Aplicação                    |
+| ---------- | ---------------------------- |
+| HTML5      | Estrutura da página          |
+| CSS3       | Estilização e responsividade |
+| JavaScript | Interatividade               |
+
+### Organização do projeto
+
+```text
+site-professora/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── assets/
+    └── img/
+```
+
+## Aprendizados
+
+Este projeto faz parte da minha jornada de aprendizado em desenvolvimento web, permitindo colocar em prática conceitos de HTML, CSS e JavaScript em uma aplicação real.
+
+---
+
+**Desenvolvido por Gean Lacerda**
+Estudante de Análise e Desenvolvimento de Sistemas.
