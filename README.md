@@ -44,3 +44,17 @@ Este projeto faz parte da minha jornada de aprendizado em desenvolvimento web, p
 
 **Desenvolvido por Gean Lacerda**
 Estudante de Análise e Desenvolvimento de Sistemas.
+
+
+## Publicação e segurança
+
+O projeto é estático e pode ser publicado pelo GitHub Pages. Em **Settings > Pages**,
+ative **Enforce HTTPS** quando a opção estiver disponível.
+
+- O formulário monta a mensagem no navegador; não armazena nem envia os campos para um servidor próprio.
+- Os dados digitados só são encaminhados ao WhatsApp quando a pessoa clica no botão de envio.
+- Não adicione senhas, tokens ou credenciais ao repositório.
+- A política CSP no HTML restringe scripts, imagens, fontes e recursos a origens permitidas.
+- CSP em meta não substitui cabeçalhos HTTP; `frame-ancestors` precisa de configuração no servidor, quando disponível.
+
+Antes de publicar, confira se o número público de WhatsApp e os links de contato continuam corretos.

@@ -7,6 +7,10 @@
   <meta name="description"
     content="Aulas particulares de Língua Portuguesa e Literatura para o Ensino Fundamental 2 e Ensino Médio, com apoio para redação do ENEM e PAES.">
   <meta name="theme-color" content="#45265f">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; form-action 'self' https://wa.me; upgrade-insecure-requests">
   <meta property="og:title" content="Ricaelly Bacelar | Professora Particular">
   <meta property="og:description" content="Português, Literatura e redação para ENEM e PAES.">
   <meta property="og:type" content="website">
@@ -73,10 +77,8 @@
 
         <div class="portrait-area">
           <div class="portrait-frame" id="portraitFrame">
-            <img src="assets/Ricaelly.jpg" alt="Foto da professora Ricaelly Bacelar" fetchpriority="high">
-            <div class="portrait-fallback" aria-hidden="true">
-              <img src="" alt="">
-            </div>
+            <img src="assets/Ricaelly.jpg" alt="Foto da professora Ricaelly Bacelar" width="780" height="975" fetchpriority="high" decoding="async">
+            <div class="portrait-fallback" aria-hidden="true">RB</div>
           </div>
           <div class="portrait-caption">
             <strong>Ricaelly Bacelar</strong>
@@ -133,11 +135,11 @@
       </div>
     </section>
 
-<div class="about-art reveal">
-    <img
-        src="assets/capelo_livros.jpg"
-        alt="Capelo de formatura sobre livros em uma biblioteca">
-</div>
+    <section class="about" id="sobre">
+      <div class="container about-grid">
+        <div class="about-art reveal">
+          <img src="assets/capelo_livros.jpg" alt="Capelo de formatura sobre livros em uma biblioteca" loading="lazy" decoding="async">
+        </div>
         <div class="about-copy reveal">
           <span class="eyebrow">Sobre as aulas</span>
           <h2>Conhecimento que abre caminhos.</h2>
@@ -217,8 +219,12 @@
             <div class="field">
               <label class="field-label" for="detalhes">Quer explicar um pouco mais? <span
                   style="font-weight:400;color:var(--suave)">(opcional)</span></label>
-              <input class="text-input" type="text" id="detalhes"
-                placeholder="Ex.: tenho dificuldade em interpretação..." maxlength="180">
+              <input class="text-input" type="text"
+              id="detalhes"
+                lang="pt-BR"
+                soekkcheck="true"
+                placeholder="Ex.: tenho dificuldade em interpretação..."
+                maxlength="180">
             </div>
           </div>
 
